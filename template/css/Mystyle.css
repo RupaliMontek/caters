@@ -1,0 +1,58 @@
+.mdi-menu::before{color: #fff !important;}
+.mynav{background:url(../images/food.png) no-repeat 40px bottom #d77b39 !important; height: 120px;position:relative;} 
+.forLogo{display: flex;align-items: center; font-size: 30px; color: #803500; font-weight: bold; font-weight: bold;
+  text-transform: uppercase;}
+  .forLogo img{margin-right: 15px;}
+  .mysidebarrr{background:#d77b39 !important;}
+  button.navbar-toggler{margin: 20px 0 0 20px;}
+  .navbar-toggler{border: none; outline: none;}
+  .navbar-toggler:visited{border: none; outline: none;}
+  .navbar-toggler:focus{box-shadow: none !important;}
+  .frmaincontent{margin-top:15px;}
+  .frmaincontent .btn-success,.frmaincontent .btn-success:hover{background: green; color: #fff; font-weight: bold;padding: 5px 10px;border-color: green;}
+  .frmaincontent .btn-primary,.frmaincontent .btn-primary:hover{background: #c55e05; color: #fff; font-weight: bold;border-color: #c55e05;}
+  .frmaincontent .btn-danger,.frmaincontent .btn-danger:hover{background: red; color: #fff; font-weight: bold;border-color: red;}
+  .frmaincontent .btn-secondary,.frmaincontent .btn-secondary:hover {color: #fff;background-color: #333;border-color: #333;font-weight: bold;}
+  i.bi-plus-lg{font-size: 25px !important; font-weight: 600 !important;}
+  .frmaincontent .btn-success i, .frmaincontent .btn-primary i, .frmaincontent .btn-danger i{color: #fff !important;}
+  .frlogindashh{display: flex;align-items: center;height: 100vh; padding: 0 !important;}
+   .form-container {max-width: 100%;margin:0px auto;padding: 20px; border: 1px solid #ddd;border-radius: 8px; background-color: #f9f9f9;}
+.header-actions {display: flex;justify-content: space-between;align-items: center; margin-bottom: 1rem;}
+.add-btn {white-space: nowrap;}
+.deletemsgbody .modal-body{font-size: 20px;text-align: center; padding: 20px 0 0 0;}
+.deletemsgbody .modal-footer{border:none;justify-content: center;}
+.forEditDeletBtnn{display:flex; justify-content:space-between;}
+.forEditDeletBtnn a{margin-right:10px;}
+.navbar.navbar-mini.fixed-top{position:static !important;}
+.navbar-fixed-top .container-scroller{overflow:auto !important;}
+.navbar.navbar-mini{height:auto !important;}
+.navbar .navbar-menu-wrapper{height:auto !important;}
+.action-buttons{display:flex; }
+.action-buttons a:first-child{margin-right:10px;}
+.fordashboardcoll{background:#f2f2f2;padding:15px;}
+.forLogoutt{position:absolute; top:20px; right:24px; z-index:99;}
+.forLogoutt .btn-primary {color: #c55e05; background-color: #fff; border-color: #fff; font-weight:600; padding:4px 10px !important;}
+.forLogoutt .btn-primary i{font-size:25px !important;}
+.loginsectionn{padding: 0; height: 100vh; display: flex; align-items: center; justify-content: center;}
+.loginsectionnInn{align-items: center; justify-content: center !important;box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);padding: 10px 0;
+  width: 80%; margin: 0px auto;}
+.loginimgg img{border: 1px solid #333;}
+.signin-form .btn-primary {width:auto !important;}
+.forloginpagebodyy{background:#fff;}
+.loginbuttonss{display:flex; justify-content:space-between;}
+.forgotpwbtnnn{border:none; background:none;color:#444 !important;text-decoration:none;font-weight:600;}
+.modalclosebtnnn{text-align: right; margin: 10px 15px 0 0;}
+.loginforgotpww .modal-body{padding:20px;}
+.loginforgotpww .modal-body input{margin-bottom:15px;}
+.loginforgotpww .modal-content{text-align:center;}
+
+@media (max-width: 991px) {
+  .navbar .navbar-menu-wrapper .navbar-toggler.navbar-toggler-right {
+	  margin-top:-20px;}
+	  .mysidebarrr .navbar-toggler{display:none;}
+	  .fordashboardcoll{margin-bottom:10px;}
+	  .loginsectionnInn{width:100%;}
+	  .loginimgg img{width:25%; height:auto; margin:0px auto; margin-bottom:15px;}
+	  .loginimgg{text-align:center;}
+	  .loginsectionnInn h3{text-align:center;margin: 0 !important;}
+  }

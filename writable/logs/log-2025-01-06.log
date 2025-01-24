@@ -1,0 +1,536 @@
+CRITICAL - 2025-01-06 08:56:33 --> ErrorException: Undefined variable $address
+[Method: POST, Route: save_manager]
+in APPPATH\Controllers\Home.php on line 208.
+ 1 APPPATH\Controllers\Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $address', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 208)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_manager()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:03:23 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:04:46 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:04:50 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:05:39 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:05:45 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:05:50 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:05:56 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:06:04 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:06:15 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:06:19 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:10:19 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 75.
+ 1 APPPATH\Views\vendor\edit_order.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:11:21 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:12:51 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:13:03 --> ErrorException: Undefined array key "staff_data"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_data"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:13:16 --> ErrorException: Undefined array key "staffdata"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 74.
+ 1 APPPATH\Views\vendor\edit_order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staffdata"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:14:00 --> ErrorException: Undefined array key "staff"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 76.
+ 1 APPPATH\Views\vendor\edit_order.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 10:14:07 --> ErrorException: Undefined array key "staff"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Views\vendor\edit_order.php on line 76.
+ 1 APPPATH\Views\vendor\edit_order.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_order.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_order', [], true)
+ 5 APPPATH\Controllers\Vendor.php(85): view('vendor/edit_order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->edit_order('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:35:36 --> ParseError: syntax error, unexpected token ":"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Controllers\Vendor.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:35:47 --> ParseError: syntax error, unexpected token ":"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Controllers\Vendor.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:35:56 --> ParseError: syntax error, unexpected token ":"
+[Method: GET, Route: list_order]
+in APPPATH\Controllers\Vendor.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:35:56 --> ParseError: syntax error, unexpected token ":"
+[Method: GET, Route: vendor_dashboard]
+in APPPATH\Controllers\Vendor.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:37:15 --> ParseError: syntax error, unexpected token ":"
+[Method: GET, Route: edit_order/1]
+in APPPATH\Controllers\Vendor.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:37:21 --> ParseError: syntax error, unexpected token ":"
+[Method: GET, Route: list_order]
+in APPPATH\Controllers\Vendor.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:37:59 --> ParseError: syntax error, unexpected token ":"
+[Method: POST, Route: update_order/1]
+in APPPATH\Controllers\Vendor.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:38:39 --> Error: Undefined constant "App\Controllers\orderData"
+[Method: POST, Route: update_order/1]
+in APPPATH\Controllers\Vendor.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->update_order('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 11:38:46 --> Error: Undefined constant "App\Controllers\orderData"
+[Method: POST, Route: update_order/1]
+in APPPATH\Controllers\Vendor.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->update_order('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:16:15 --> Error: Class "App\Controllers\OrderModel" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:16:53 --> ParseError: syntax error, unexpected variable "$startDate"
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 154.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:28:56 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 171.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:29:11 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 171.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:29:18 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 171.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:35:25 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 173.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:39:05 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 174.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:40:49 --> ErrorException: require_once(C:\xampp\htdocs\caters\app\libraries/PhpSpreadsheet/src/Bootstrap.php): Failed to open stream: No such file or directory
+[Method: GET, Route: order_report]
+in APPPATH\Controllers\Vendor.php on line 11.
+ 1 APPPATH\Controllers\Vendor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\caters\\app\\libraries/PhpSpreadsheet/src/Bootstrap.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php', 11)
+ 2 APPPATH\Controllers\Vendor.php(11): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:40:50 --> ErrorException: require_once(C:\xampp\htdocs\caters\app\libraries/PhpSpreadsheet/src/Bootstrap.php): Failed to open stream: No such file or directory
+[Method: GET, Route: order_report]
+in APPPATH\Controllers\Vendor.php on line 11.
+ 1 APPPATH\Controllers\Vendor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\caters\\app\\libraries/PhpSpreadsheet/src/Bootstrap.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php', 11)
+ 2 APPPATH\Controllers\Vendor.php(11): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:41:15 --> ErrorException: require_once(C:\xampp\htdocs\caters\app\libraries/PhpSpreadsheet/src/Bootstrap.php): Failed to open stream: No such file or directory
+[Method: GET, Route: order_report]
+in APPPATH\Controllers\Vendor.php on line 11.
+ 1 APPPATH\Controllers\Vendor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\caters\\app\\libraries/PhpSpreadsheet/src/Bootstrap.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php', 11)
+ 2 APPPATH\Controllers\Vendor.php(11): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:41:27 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 213.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:47:54 --> ErrorException: require_once(C:\xampp\htdocs\caters\app\libraries/PhpSpreadsheet/src/Bootstrap.php): Failed to open stream: No such file or directory
+[Method: GET, Route: order_report]
+in APPPATH\Controllers\Vendor.php on line 11.
+ 1 APPPATH\Controllers\Vendor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\caters\\app\\libraries/PhpSpreadsheet/src/Bootstrap.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php', 11)
+ 2 APPPATH\Controllers\Vendor.php(11): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:54:08 --> ErrorException: require_once(C:\xampp\htdocs\caters\app\vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: client_dashboard]
+in APPPATH\Controllers\Vendor.php on line 11.
+ 1 APPPATH\Controllers\Vendor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\caters\\app\\vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php', 11)
+ 2 APPPATH\Controllers\Vendor.php(11): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Vendor.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vendor')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vendor')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Vendor', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:57:49 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 176.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:58:50 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 169.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:58:53 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 169.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:59:04 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: vendor/generate_report]
+in APPPATH\Controllers\Vendor.php on line 169.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Vendor->generateReport()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

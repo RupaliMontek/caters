@@ -1,0 +1,114 @@
+CRITICAL - 2024-12-31 06:28:57 --> Error: Class "App\Controllers\UserAdminModel" not found
+[Method: POST, Route: home/check_login]
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->check_login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 06:30:54 --> Error: Class "App\Controllers\UserAdminModel" not found
+[Method: POST, Route: home/check_login]
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->check_login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 06:31:43 --> Error: Class "App\Controllers\UserAdminModel" not found
+[Method: POST, Route: home/check_login]
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->check_login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 10:48:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sidebar.php"
+[Method: GET, Route: supervisor_dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sidebar', [], true)
+ 3 APPPATH\Controllers\Home.php(66): view('sidebar')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 10:48:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sidebar.php"
+[Method: GET, Route: supervisor_dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sidebar', [], true)
+ 3 APPPATH\Controllers\Home.php(66): view('sidebar')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 12:18:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "manager/add_manager.php"
+[Method: GET, Route: home/add_manager]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manager/add_manager.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/add_manager', [], true)
+ 3 APPPATH\Controllers\Home.php(86): view('manager/add_manager')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_manager()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 12:18:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "manager/add_manager.php"
+[Method: GET, Route: home/add_manager]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manager/add_manager.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/add_manager', [], true)
+ 3 APPPATH\Controllers\Home.php(86): view('manager/add_manager')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_manager()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 12:19:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "manager/add_manager.php"
+[Method: GET, Route: home/add_manager]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manager/add_manager.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/add_manager', [], true)
+ 3 APPPATH\Controllers\Home.php(86): view('manager/add_manager')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_manager()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 12:20:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "manager/add_manager.php"
+[Method: GET, Route: add_manager]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manager/add_manager.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/add_manager', [], true)
+ 3 APPPATH\Controllers\Home.php(86): view('manager/add_manager')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_manager()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 12:33:37 --> ErrorException: include(header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: superadmin_dashboard]
+in APPPATH\Views\superadmin\superadmin_dashboard.php on line 40.
+ 1 APPPATH\Views\superadmin\superadmin_dashboard.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php', 40)
+ 2 APPPATH\Views\superadmin\superadmin_dashboard.php(40): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('superadmin/superadmin_dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(76): view('superadmin/superadmin_dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->superadmin()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

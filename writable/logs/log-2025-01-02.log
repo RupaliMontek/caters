@@ -1,0 +1,611 @@
+CRITICAL - 2025-01-02 05:57:00 --> ErrorException: Undefined variable $phone
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 104.
+ 1 APPPATH\Controllers\Home.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $phone', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:50:28 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_supervisor
+[Method: GET, Route: list_supervisor]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Model->__call('get_list_supervisor', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:51:17 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_manager
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(179): CodeIgniter\Model->__call('get_list_manager', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:51:18 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_manager
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(179): CodeIgniter\Model->__call('get_list_manager', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:51:22 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_manager
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(179): CodeIgniter\Model->__call('get_list_manager', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:51:30 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_supervisor
+[Method: GET, Route: list_supervisor]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Model->__call('get_list_supervisor', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:51:49 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_manager
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(179): CodeIgniter\Model->__call('get_list_manager', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-02 06:52:50 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\caters\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\caters\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\caters\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\caters\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\caters\app\Controllers\Home.php(206): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\caters\system\CodeIgniter.php(933): App\Controllers\Home->save_manager()
+#9 C:\xampp\htdocs\caters\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\caters\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\caters\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\caters\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\caters\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-02 06:52:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'field list'
+[Method: POST, Route: save_manager]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_admin` (`name`, `email`, `phone`, `password`, `role`) VALUES (:name:, :email:, :phone:, :password:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(206): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_manager()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:52:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_admin` (`name`, `email`, `phone`, `password`, `role`) VALUES (\'Shweta Bhilare\', \'shwetabhilaressb558@gmail.com\', \'09615558558\', \'test11\', \'Manager\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_admin` (`name`, `email`, `phone`, `password`, `role`) VALUES (\'Shweta Bhilare\', \'shwetabhilaressb558@gmail.com\', \'09615558558\', \'test11\', \'Manager\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_admin` (`name`, `email`, `phone`, `password`, `role`) VALUES (:name:, :email:, :phone:, :password:, :role:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(206): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_manager()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:52:50 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `user_admin` (`name`, `email`, `phone`, `password`, `role`) VALUES (\'Shweta Bhilare\', \'shwetabhilaressb558@gmail.com\', \'09615558558\', \'test11\', \'Manager\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_admin` (`name`, `email`, `phone`, `password`, `role`) VALUES (\'Shweta Bhilare\', \'shwetabhilaressb558@gmail.com\', \'09615558558\', \'test11\', \'Manager\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_admin` (`name`, `email`, `phone`, `password`, `role`) VALUES (\'Shweta Bhilare\', \'shwetabhilaressb558@gmail.com\', \'09615558558\', \'test11\', \'Manager\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_admin` (`name`, `email`, `phone`, `password`, `role`) VALUES (:name:, :email:, :phone:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(206): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_manager()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:54:02 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_manager
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(179): CodeIgniter\Model->__call('get_list_manager', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:54:03 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_manager
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(179): CodeIgniter\Model->__call('get_list_manager', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:54:39 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_supervisor
+[Method: GET, Route: list_supervisor]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Model->__call('get_list_supervisor', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:55:24 --> BadMethodCallException: Call to undefined method App\Models\UserAdminModel::get_list_supervisor
+[Method: GET, Route: list_supervisor]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Model->__call('get_list_supervisor', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:56:57 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(80): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:57:04 --> ErrorException: Undefined variable $UserAdminModel
+[Method: GET, Route: list_supervisor]
+in APPPATH\Controllers\Home.php on line 81.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UserAdminModel', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:57:07 --> ErrorException: Undefined variable $UserAdminModel
+[Method: GET, Route: list_supervisor]
+in APPPATH\Controllers\Home.php on line 82.
+ 1 APPPATH\Controllers\Home.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UserAdminModel', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:59:07 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:59:20 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_manager]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(176): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:59:23 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_vendor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(270): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_vendor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:59:28 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit_vendor(), 0 passed in C:\xampp\htdocs\caters\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit_vendor]
+in APPPATH\Controllers\Home.php on line 312.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_vendor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 06:59:40 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:02:35 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(90): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:02:36 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(90): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:03:16 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:06:24 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:12:23 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:14:37 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:16:34 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\Supervisor_Model.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\Supervisor_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Supervisor_Model')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Supervisor_Model')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:18:45 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:19:05 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:19:57 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:21:34 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\UserAdminModel.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\UserAdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserAdminModel')
+ 3 APPPATH\Controllers\Home.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserAdminModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:39:48 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_manager/1]
+in APPPATH\Views\manager\edit_manager.php on line 31.
+ 1 APPPATH\Views\manager\edit_manager.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/edit_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(230): view('manager/edit_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_manager('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:41:36 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_vendor/3]
+in APPPATH\Views\vendor\edit_vendor.php on line 39.
+ 1 APPPATH\Views\vendor\edit_vendor.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_vendor.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_vendor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_vendor', [], true)
+ 5 APPPATH\Controllers\Home.php(331): view('vendor/edit_vendor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_vendor('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:42:51 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_vendor/3]
+in APPPATH\Views\vendor\edit_vendor.php on line 39.
+ 1 APPPATH\Views\vendor\edit_vendor.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_vendor.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_vendor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_vendor', [], true)
+ 5 APPPATH\Controllers\Home.php(331): view('vendor/edit_vendor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_vendor('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:42:58 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_manager/1]
+in APPPATH\Views\manager\edit_manager.php on line 31.
+ 1 APPPATH\Views\manager\edit_manager.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/edit_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(230): view('manager/edit_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_manager('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:45:03 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_manager/1]
+in APPPATH\Views\manager\edit_manager.php on line 31.
+ 1 APPPATH\Views\manager\edit_manager.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/edit_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(231): view('manager/edit_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_manager('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:49:57 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_manager/1]
+in APPPATH\Views\manager\edit_manager.php on line 31.
+ 1 APPPATH\Views\manager\edit_manager.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/edit_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(231): view('manager/edit_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_manager('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:58:05 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_manager/1]
+in APPPATH\Views\manager\edit_manager.php on line 31.
+ 1 APPPATH\Views\manager\edit_manager.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/edit_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(230): view('manager/edit_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_manager('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:58:06 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_manager/1]
+in APPPATH\Views\manager\edit_manager.php on line 31.
+ 1 APPPATH\Views\manager\edit_manager.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/edit_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(230): view('manager/edit_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_manager('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 07:58:10 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_manager/1]
+in APPPATH\Views\manager\edit_manager.php on line 31.
+ 1 APPPATH\Views\manager\edit_manager.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/edit_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(230): view('manager/edit_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_manager('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 09:32:39 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_manager/1]
+in APPPATH\Views\manager\edit_manager.php on line 31.
+ 1 APPPATH\Views\manager\edit_manager.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\edit_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/edit_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(230): view('manager/edit_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_manager('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 10:11:31 --> ErrorException: Undefined array key "Vendor_name"
+[Method: GET, Route: superadmin_dashboard]
+in APPPATH\Views\superadmin\superadmin_dashboard.php on line 74.
+ 1 APPPATH\Views\superadmin\superadmin_dashboard.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Vendor_name"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('superadmin/superadmin_dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(68): view('superadmin/superadmin_dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->superadmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 10:11:47 --> ErrorException: Undefined array key "Vendor_name"
+[Method: GET, Route: superadmin_dashboard]
+in APPPATH\Views\superadmin\superadmin_dashboard.php on line 74.
+ 1 APPPATH\Views\superadmin\superadmin_dashboard.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Vendor_name"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('superadmin/superadmin_dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(68): view('superadmin/superadmin_dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->superadmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 10:11:57 --> ErrorException: Undefined array key "Vendor_name"
+[Method: GET, Route: superadmin_dashboard]
+in APPPATH\Views\superadmin\superadmin_dashboard.php on line 74.
+ 1 APPPATH\Views\superadmin\superadmin_dashboard.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Vendor_name"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('superadmin/superadmin_dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(68): view('superadmin/superadmin_dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->superadmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 10:12:52 --> ErrorException: Undefined array key "Vendor_name"
+[Method: GET, Route: superadmin_dashboard]
+in APPPATH\Views\superadmin\superadmin_dashboard.php on line 74.
+ 1 APPPATH\Views\superadmin\superadmin_dashboard.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Vendor_name"', 'C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\superadmin\\superadmin_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('superadmin/superadmin_dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(68): view('superadmin/superadmin_dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->superadmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 10:13:10 --> ParseError: syntax error, unexpected single-quoted string "status", expecting "]"
+[Method: GET, Route: superadmin_dashboard]
+in APPPATH\Views\superadmin\superadmin_dashboard.php on line 69.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('superadmin/superadmin_dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(68): view('superadmin/superadmin_dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->superadmin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-02 11:01:19 --> ErrorException: Undefined variable $role
+[Method: POST, Route: home/check_login]
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->check_login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

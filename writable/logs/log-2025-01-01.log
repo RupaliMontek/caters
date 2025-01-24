@@ -1,0 +1,981 @@
+CRITICAL - 2025-01-01 04:50:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "supervisor/add_supervisor.php"
+[Method: GET, Route: add_supervisor]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('supervisor/add_supervisor.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('supervisor/add_supervisor', [], true)
+ 3 APPPATH\Controllers\Home.php(87): view('supervisor/add_supervisor')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:20:06 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_supervisor]
+in APPPATH\Views\supervisor\edit_supervisor.php on line 16.
+ 1 APPPATH\Views\supervisor\edit_supervisor.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\edit_supervisor.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\edit_supervisor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('supervisor/edit_supervisor', [], true)
+ 5 APPPATH\Controllers\Home.php(93): view('supervisor/edit_supervisor')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_supervisor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:20:58 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_supervisor]
+in APPPATH\Views\supervisor\edit_supervisor.php on line 16.
+ 1 APPPATH\Views\supervisor\edit_supervisor.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\edit_supervisor.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\edit_supervisor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('supervisor/edit_supervisor', [], true)
+ 5 APPPATH\Controllers\Home.php(93): view('supervisor/edit_supervisor')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_supervisor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:31:45 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_supervisor]
+in APPPATH\Views\supervisor\edit_supervisor.php on line 16.
+ 1 APPPATH\Views\supervisor\edit_supervisor.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\edit_supervisor.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\edit_supervisor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('supervisor/edit_supervisor', [], true)
+ 5 APPPATH\Controllers\Home.php(93): view('supervisor/edit_supervisor')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_supervisor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:49:40 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: add_supervisor]
+in APPPATH\Views\supervisor\add_supervisor.php on line 1.
+ 1 APPPATH\Views\supervisor\add_supervisor.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\add_supervisor.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\add_supervisor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('supervisor/add_supervisor', [], true)
+ 5 APPPATH\Controllers\Home.php(87): view('supervisor/add_supervisor')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_supervisor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:49:54 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: add_supervisor]
+in APPPATH\Views\supervisor\add_supervisor.php on line 1.
+ 1 APPPATH\Views\supervisor\add_supervisor.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\add_supervisor.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\add_supervisor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('supervisor/add_supervisor', [], true)
+ 5 APPPATH\Controllers\Home.php(87): view('supervisor/add_supervisor')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_supervisor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:50:30 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: add_supervisor]
+in APPPATH\Views\supervisor\add_supervisor.php on line 1.
+ 1 APPPATH\Views\supervisor\add_supervisor.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\add_supervisor.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\supervisor\\add_supervisor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('supervisor/add_supervisor', [], true)
+ 5 APPPATH\Controllers\Home.php(87): view('supervisor/add_supervisor')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_supervisor()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:51:44 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:51:50 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:52:09 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:52:12 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:52:36 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:52:41 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:53:06 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:58:34 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 06:59:00 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:06:53 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:07:27 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 92.
+ 1 APPPATH\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:10:18 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 92.
+ 1 APPPATH\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:15:23 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 92.
+ 1 APPPATH\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:15:43 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:07 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:07 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:08 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:08 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:08 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:08 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:08 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:08 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:08 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:08 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:16:08 --> ErrorException: Undefined property: App\Controllers\Home::$input
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:31:21 --> Error: Class "App\Controllers\SupervisorModel" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:32:01 --> Error: Class "App\Controllers\SupervisorModel" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:35:07 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:41:02 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:43:11 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:46:12 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:46:14 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:49:15 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:55:39 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:56:38 --> ErrorException: Undefined variable $Supervisor_model
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 116.
+ 1 APPPATH\Controllers\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Supervisor_model', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:57:27 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 07:57:28 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 08:01:36 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 08:01:39 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 08:02:06 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 08:06:18 --> Error: Class "App\Models\Supervisor_model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 08:06:28 --> ErrorException: Undefined variable $Supervisor_model
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 117.
+ 1 APPPATH\Controllers\Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Supervisor_model', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 08:16:34 --> Error: Class "App\Models\Supervisor_Model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 08:16:37 --> Error: Class "App\Models\Supervisor_Model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 08:16:52 --> Error: Class "App\Models\Supervisor_Model" not found
+[Method: POST, Route: save_supervisor]
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_supervisor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 09:17:48 --> ErrorException: Undefined variable $Supervisor_model
+[Method: GET, Route: list_supervisor]
+in APPPATH\Controllers\Home.php on line 80.
+ 1 APPPATH\Controllers\Home.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Supervisor_model', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 09:17:59 --> BadMethodCallException: Call to undefined method App\Models\Supervisor_Model::get_list_supervisor
+[Method: GET, Route: list_supervisor]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Model->__call('get_list_supervisor', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 09:20:04 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: list_supervisor]
+in APPPATH\Models\Supervisor_model.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Models\\Supervisor_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Supervisor_Model')
+ 3 APPPATH\Controllers\Home.php(80): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Supervisor_Model')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_supervisor()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 09:47:17 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: GET, Route: edit_supervisor/1]
+in APPPATH\Controllers\Home.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 09:47:18 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: GET, Route: edit_supervisor/1]
+in APPPATH\Controllers\Home.php on line 170.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:03:40 --> Error: Class "App\Controllers\Manager_Model" not found
+[Method: GET, Route: list_manager]
+in APPPATH\Controllers\Home.php on line 180.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:04:33 --> Error: Class "App\Controllers\Manager_Model" not found
+[Method: GET, Route: list_manager]
+in APPPATH\Controllers\Home.php on line 180.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:04:35 --> Error: Class "App\Controllers\Manager_Model" not found
+[Method: GET, Route: list_manager]
+in APPPATH\Controllers\Home.php on line 180.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-01 10:04:54 --> mysqli_sql_exception: Table 'caters.manager' doesn't exist in C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\caters\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\caters\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\caters\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\caters\app\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\caters\app\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+#8 C:\xampp\htdocs\caters\system\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+#9 C:\xampp\htdocs\caters\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\caters\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\caters\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\caters\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\caters\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-01 10:04:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'caters.manager' doesn't exist
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:04:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'caters.manager' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manager`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manager`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:04:54 --> [Caused by] mysqli_sql_exception: Table 'caters.manager' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `manager`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manager`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manager`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-01 10:07:00 --> mysqli_sql_exception: Table 'caters.manager' doesn't exist in C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\caters\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\caters\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\caters\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\caters\app\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\caters\app\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+#8 C:\xampp\htdocs\caters\system\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+#9 C:\xampp\htdocs\caters\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\caters\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\caters\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\caters\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\caters\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-01 10:07:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'caters.manager' doesn't exist
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:07:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'caters.manager' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manager`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manager`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:07:00 --> [Caused by] mysqli_sql_exception: Table 'caters.manager' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `manager`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manager`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manager`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-01 10:07:02 --> mysqli_sql_exception: Table 'caters.manager' doesn't exist in C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\caters\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\caters\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\caters\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\caters\app\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\caters\app\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+#8 C:\xampp\htdocs\caters\system\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+#9 C:\xampp\htdocs\caters\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\caters\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\caters\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\caters\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\caters\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-01 10:07:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'caters.manager' doesn't exist
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:07:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'caters.manager' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manager`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manager`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:07:02 --> [Caused by] mysqli_sql_exception: Table 'caters.manager' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `manager`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manager`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manager`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-01 10:08:08 --> mysqli_sql_exception: Table 'caters.manager' doesn't exist in C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\caters\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\caters\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\caters\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\caters\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\caters\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\caters\app\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\caters\app\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+#8 C:\xampp\htdocs\caters\system\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+#9 C:\xampp\htdocs\caters\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\caters\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\caters\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\caters\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\caters\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-01 10:08:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'caters.manager' doesn't exist
+[Method: GET, Route: list_manager]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:08:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'caters.manager' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manager`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manager`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:08:08 --> [Caused by] mysqli_sql_exception: Table 'caters.manager' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `manager`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manager`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manager`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manager`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Manager_Model.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(182): App\Models\Manager_Model->get_list_manager()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:13:53 --> ErrorException: Undefined variable $manager_Model
+[Method: POST, Route: update_manager/1]
+in APPPATH\Controllers\Home.php on line 247.
+ 1 APPPATH\Controllers\Home.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $manager_Model', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_manager('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:19:32 --> ErrorException: Undefined variable $manager_Model
+[Method: POST, Route: update_manager/1]
+in APPPATH\Controllers\Home.php on line 248.
+ 1 APPPATH\Controllers\Home.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $manager_Model', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 248)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_manager('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:19:41 --> ErrorException: Undefined variable $Manager_Model
+[Method: POST, Route: update_manager/1]
+in APPPATH\Controllers\Home.php on line 248.
+ 1 APPPATH\Controllers\Home.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Manager_Model', 'C:\\xampp\\htdocs\\caters\\app\\Controllers\\Home.php', 248)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_manager('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:23:08 --> ErrorException: Undefined variable $srNo
+[Method: GET, Route: list_manager]
+in APPPATH\Views\manager\list_manager.php on line 45.
+ 1 APPPATH\Views\manager\list_manager.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $srNo', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\list_manager.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\list_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/list_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(187): view('manager/list_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:23:20 --> ErrorException: Undefined variable $srNo
+[Method: GET, Route: list_manager]
+in APPPATH\Views\manager\list_manager.php on line 46.
+ 1 APPPATH\Views\manager\list_manager.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $srNo', 'C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\list_manager.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\manager\\list_manager.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('manager/list_manager', [], true)
+ 5 APPPATH\Controllers\Home.php(187): view('manager/list_manager', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_manager()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:33:55 --> Error: Class "App\Controllers\Vendor_Model" not found
+[Method: GET, Route: list_vendor]
+in APPPATH\Controllers\Home.php on line 276.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_vendor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:36:55 --> Error: Class "App\Controllers\Vendor_Model" not found
+[Method: GET, Route: list_vendor]
+in APPPATH\Controllers\Home.php on line 276.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list_vendor()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 10:48:30 --> ErrorException: Undefined variable $supervisor
+[Method: GET, Route: edit_vendor/2]
+in APPPATH\Views\vendor\edit_vendor.php on line 16.
+ 1 APPPATH\Views\vendor\edit_vendor.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supervisor', 'C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_vendor.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\caters\\app\\Views\\vendor\\edit_vendor.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('vendor/edit_vendor', [], true)
+ 5 APPPATH\Controllers\Home.php(320): view('vendor/edit_vendor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit_vendor('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
