@@ -1,0 +1,15 @@
+/application/config/config.php
+/application/config/database.php
+
+application/logs/*
+!application/logs/index.html
+application/.htaccess
+.htaccess
+application/cache/*
+!application/cache/index.html
+
+uploads/*
+!uploads/.gitkeep
+
+vendor/
+
